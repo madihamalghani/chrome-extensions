@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Joke Generator",
+    "version": "1.0",
+    "description": "Generate random jokes with a single click!",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons":{
+        "128":"logo.png"
+    },
+    "permissions": ["activeTab"]
+}
