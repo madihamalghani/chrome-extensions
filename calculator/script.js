@@ -14,10 +14,6 @@ buttons.forEach((button) => {
             backspace();
         } else if (action === 'calculate') {
             calculateResult();
-        }else if (action === 'square') {
-            calculateSquare();
-        } else if (action === 'percentage') {
-            calculatePercentage();
         }
     });
 });
