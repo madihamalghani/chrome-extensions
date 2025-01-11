@@ -1,0 +1,26 @@
+body{
+    width:300px;
+    background: #c31432;  
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  
+    background: linear-gradient(to right, #240b36, #c31432); 
+    padding: 20px;
+    color:white
+    
+}
+.button {
+    margin-bottom: 3px;
+    display:block;
+    padding: 10px 20px;
+    background: #642B73;  
+    background: -webkit-linear-gradient(to right, #C6426E, #642B73);  
+    background: linear-gradient(to right, #C6426E, #642B73); 
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}

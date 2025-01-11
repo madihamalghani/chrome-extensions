@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Get Python Notes",
+    "version": "1.0",
+    "description": "Get Python Notes with a single click!",
+    
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons":{
+        "128":"logo.png"
+    },
+    "permissions": ["tabs"]
+}
