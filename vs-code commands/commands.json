@@ -1,0 +1,148 @@
+[
+    {
+        "category": "File Operations",
+        "commands": [
+            {
+                "name": "Open File",
+                "shortcut": "Ctrl+O",
+                "description": "Open an existing file."
+            },
+            {
+                "name": "Save File",
+                "shortcut": "Ctrl+S",
+                "description": "Save the current file."
+            },
+            {
+                "name": "Close File",
+                "shortcut": "Ctrl+W",
+                "description": "Close the current file."
+            }
+        ]
+    },
+    {
+        "category": "Navigation",
+        "commands": [
+            {
+                "name": "Go to Line",
+                "shortcut": "Ctrl+G",
+                "description": "Jump to a specific line in the file."
+            },
+            {
+                "name": "Search in Files",
+                "shortcut": "Ctrl+Shift+F",
+                "description": "Search for text across all files in the workspace."
+            }
+        ]
+    },
+    {
+        "category": "Debugging",
+        "commands": [
+            {
+                "name": "Start Debugging",
+                "shortcut": "F5",
+                "description": "Start debugging the current file."
+            },
+            {
+                "name": "Step Over",
+                "shortcut": "F10",
+                "description": "Step over the next function during debugging."
+            }
+        ]
+    },
+    {
+        "category": "Deal with Lines",
+        "commands": [
+            {
+                "name": "Cut Line",
+                "shortcut": "Ctrl X",
+                "description": "Cut line (empty selection)"
+            },
+            {
+                "name": "Copy Line",
+                "shortcut": "Ctrl C",
+                "description": "Copy line (empty selection)"
+            },
+            {
+                "name": "Move Line Up",
+                "shortcut": "Alt Up",
+                "description": "Move line up"
+            },
+            {
+                "name": "Move line Down",
+                "shortcut": "Alt Down",
+                "description": "Move line down"
+            },
+            {
+                "name": "Copy line up",
+                "shortcut": "Shift Alt Up",
+                "description": "This will copy the line up"
+            },
+            {
+                "name": "Copy line down",
+                "shortcut": "Shift Alt Down",
+                "description": "This will copy the line down"
+            },
+            {
+                "name": "Delete line",
+                "shortcut": "Ctrl Shift K",
+                "description": "This will delete the line"
+            },
+            {
+                "name": "Jump to matching bracket",
+                "shortcut": " Ctrl Shift \\",
+                "description": "This will make you jump to it's matching bracket"
+            },
+            {
+                "name": "Scroll line up/down",
+                "shortcut": "Ctrl Up/Down",
+                "description": "This will scroll the line"
+            }
+            
+        ]
+    },
+    {
+        "category": "Error",
+        "commands": [
+            {
+                "name": "Go to next Error",
+                "shortcut": "F8",
+                "description": "Go to next error or warning"
+            },
+            {
+                "name": "previous error",
+                "shortcut": "Shift F8",
+                "description": "Go to previous error or warning"
+            }
+        ]
+    },
+    {
+        "category": "Multi-cursor and Selection",
+        "commands": [
+            {
+                "name": "Select all occurrences of current selection",
+                "shortcut": "Ctrl Shift L",
+                "description": "Select all occurrences of current selection.(same text through out the file will be selected"
+            },
+            {
+                "name": "Select all occurrences of current word",
+                "shortcut": "Ctrl F2",
+                "description": "Same word will be selected and changed through out the code"
+            }
+        ]
+    },
+    {
+        "category": "Command Palette",
+        "commands": [
+            {
+                "name": "Show Command Palette",
+                "shortcut": "Ctrl Shift P",
+                "description": "Command Palette"
+            },
+            {
+                "name": "Open Terminal",
+                "shortcut": "Ctrl Shift ` ",
+                "description": "Terminal will be opened in vs code"
+            }
+        ]
+    }
+]

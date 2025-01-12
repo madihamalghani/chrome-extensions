@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "VS Code Commands Helper",
+    "version": "1.0",
+    "description": "Quickly browse and search common VS Code commands.",
+    "icons":{
+        "128":"icon.png"
+    },
+    "permissions": [
+        "clipboardWrite"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
